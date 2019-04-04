@@ -36,7 +36,7 @@
     <div class="about">
      <div class="inf">
        <h2 class = "ab">Hello! I’m Nikita Novikov. I study at the Zaporozhye National University on the 3rd year of software engineering. A junior Web Developer  specializing in front-end and back-end development.
-Experienced with all stages of the development cycle for dynamic web projects.Having a good knowledge including advanced <span class="soft">Node.js (Express), PHP (Laravel), PostgreSQL, MongoDB, Ajax, Angular JS, React.js, JavaScript, JQuery, HTML5, CSS3.</span></h2>
+Experienced with all stages of the development cycle for dynamic web projects.Having a good knowledge including advanced <span class="soft">Node.js (Express), PHP (Laravel), PostgreSQL, MongoDB, Ajax, Angular JS, React.js, JavaScript, JQuery.</span></h2>
      </div>
     </div>
        <h2 class="em">Contact Me</h2>
@@ -44,7 +44,7 @@ Experienced with all stages of the development cycle for dynamic web projects.Ha
 <div class="fo">
     <form id = "myForm" class="form">
       <div class="input">
-        <input autofocus autocomplete="off" required type="text" id = "name" name="name" placeholder="Your name">
+        <input autocomplete="off" required type="text" id = "name" name="name" placeholder="Your name">
       </div>
       <div class="input">
         <input autocomplete="off" required type="text" id = "subject" name="subject" placeholder="Your subject">
@@ -57,7 +57,7 @@ Experienced with all stages of the development cycle for dynamic web projects.Ha
       </div>
       <div class="send">
         <button class = "btn" type="submit" name="button">Send</button>
-		
+
 		<p id = "Okay" class="Okay">Okay</p>
       </div>
 
