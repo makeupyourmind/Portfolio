@@ -205,4 +205,15 @@ button:hover{
 
 .send{
   margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Okay{
+    color: #fff;
+    background-color: #4285F4;
+    padding: 6px;
+    margin-top: 0;
+    display: none;
 }

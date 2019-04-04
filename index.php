@@ -57,6 +57,8 @@ Experienced with all stages of the development cycle for dynamic web projects.Ha
       </div>
       <div class="send">
         <button class = "btn" type="submit" name="button">Send</button>
+		
+		<p id = "Okay" class="Okay">Okay</p>
       </div>
 
     </form>
@@ -71,6 +73,16 @@ Experienced with all stages of the development cycle for dynamic web projects.Ha
     $.post('sendToAdmin.php', {'name':$('#name').val(), 'email':$('#email').val(), 'subject':$('#subject').val(), 'message':$('#message').val()},
                       function(data) {
                           //alert(data);
+						  $("#Okay").css("display","block");
+                        setTimeout(function(){ $('#Okay').hide(); }, 3000);
+
+                        setTimeout(function(){
+                        $("#name").val('');
+                        $("#subject").val('');
+                        $("#email").val('');
+                        $("#message").val(''); }, 3000);
+
+                        setTimeout(function(){ $('#Okay').show(); }, 500);
                 });
           });
 </script>
